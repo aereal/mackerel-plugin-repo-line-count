@@ -9,11 +9,10 @@ mackerel-plugin-repo-line-count --name METRIC_REPO_NAME --path REPO_PATH --patte
 ### Example
 
 ```
-$ mackerel-plugin-repo-line-count --name mackerel-agent --path /path/to/mackerel-agent --pattern 'TODO'
-repo_lines.TODO.command/command.go      1       1448017565
-repo_lines.TODO.mackerel/host.go        1       1448017565
-repo_lines.TODO.main.go 1       1448017565
-repo_lines.TODO.metrics/windows/interface_test.go       1       1448017565
-repo_lines.TODO.spec/freebsd/interface.go       1       1448017565
-repo_lines.TODO.spec/netbsd/interface.go        1       1448017565
+$ mackerel-plugin-repo-line-count --name dotfiles --path /path/to/aereal/dotfiles --pattern 'TODO'
+repo_lines.TODO..vim/colors/xoria256.vim        1       1448017735
+repo_lines.TODO..zsh.d/functions/_pkgutil       3       1448017735
+repo_lines.TODO..zsh.d/functions/_prove 1       1448017735
 ```
+
+![image](https://cloud.githubusercontent.com/assets/87649/11298461/721bf9c6-8fc2-11e5-956c-6443c5e76972.png)
